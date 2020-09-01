@@ -2,9 +2,9 @@ package animalKingdom;
 
 public class Birds extends AbstractAnimal
 {
-    public Birds(int num, String name, int yearDiscovered)
+    public Birds(String name, int yearDiscovered)
     {
-        super(num, name, yearDiscovered);
+        super(name, yearDiscovered);
     }
 
     @Override
